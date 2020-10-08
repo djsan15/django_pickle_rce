@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 #RCE
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
-
+SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
 
 # Application definition
 
