@@ -1,5 +1,5 @@
 # Django Pickle RCE
-A simple POC with a vulnerable django app
+A simple POC to exploit RCE using pickle de-serialization attack on a vulnerable django app.
 
 ## Setup
 - The django version is 1.11.29
